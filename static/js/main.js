@@ -19,7 +19,7 @@ output.value = "Initializing...\n";
 
 // add pyodide returned value to the output
 function addToOutput(stdout) {
-  output.value += ">>> " + "\n" + stdout + "\n";
+  output.value += stdout + "\n";
 }
 
 // clean the output section
